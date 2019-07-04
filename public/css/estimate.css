@@ -1,0 +1,93 @@
+.estimate {
+	position: relative;
+	height: 90vh;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid #ddd;
+	max-width: 90%;
+	margin: 50px auto;
+	height: auto;
+	box-shadow: 0px 15px 15px 0px #BABABA;
+}
+
+.estimate .hed {
+	width: 100%;
+	font-size: 3em;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	box-shadow: 0px 15px 15px 0px #BABABA;
+}
+
+.estimate .estimate-sector {
+	width: 40%;
+	position: relative;
+	height: auto;
+}
+
+.estimate .estimate-input {
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 1.3em;
+	margin: 20px 10px;
+	width: 80%;
+	color: #333;
+	padding: 10px;
+	padding-left: 20px; 
+	border: 1px solid #ccc;
+	margin: 30px auto;
+	border-radius: 20px;
+	transition: all 0.5s ease;
+}
+
+.estimate input:focus {
+	border-color: orange;
+}
+
+.estimate #flex {
+	display: flex;
+	justify-content: space-around;
+}
+
+.estimate .estimate-sector .device{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.estimate input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #999;
+  transition: all 0.5s ease;
+  /*transition-delay: 0.5s;*/
+}
+
+.estimate input:focus::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+  transform: translateY(-2em);
+  opacity: 0;
+}
+
+.estimate .submit {
+	width: 100%;
+	font-size: 3em;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: 0px;
+	box-shadow: 0px -15px -15px 0px #BABABA;
+}
+
+.estimate .submit #submit {
+	font-size: 0.67em;
+	width: 60%;
+	background-color: rgb(48,183,251);
+	text-align: center;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}

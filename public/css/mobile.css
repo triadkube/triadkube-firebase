@@ -1,0 +1,146 @@
+@media only screen and (max-width: 1020px) {
+	#btn {
+		display: none;
+	}
+
+	#mob-width{
+		width: 30%
+	}
+
+	div.menu {
+		display: none;
+	}
+
+	div.banner {
+		height: 92vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div.banner div.text {
+		margin: auto auto;
+		font-size: 3em;
+		width: 80%;
+	}
+
+	div.mobilemenu {
+		position: fixed;
+		z-index: 10;
+		background-color: rgba(0,0,0,0.7);
+		bottom: 0;
+		left: 0;
+		width: 100vw;
+		height: auto;
+		display: flex;
+		justify-content: space-around;
+		padding: 20px 0px;
+	}
+
+	div.mobilemenu img {
+		border: 2px solid #fff;
+		border-radius: 50%;
+		padding: 15px;
+		width: 40px;
+		height: 40px;
+	}
+
+	div.header {
+		font-size: 60px;
+		padding: 50px 0px;
+	}
+
+	div.ping {
+		height: 70vh;
+	}
+
+	div.ping .input-content {
+		height: 60%;
+	}
+
+	/*About Page*/
+
+	div.banner{
+		height: 70vh;
+	}
+
+	div.banner .about-text p{
+		font-size: 4em;
+	}
+
+	div.about-card {
+		display: none;
+	}
+
+	div.mobile-about-card {
+		display: flex;
+		position: relative;
+		width: 90%;
+		margin: 50px auto;
+		box-shadow: 0px 15px 15px 0px #BABABA;
+	}
+
+	div.mobile-about-card .image {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	}
+
+	div.mobile-about-card .image img {
+		position: relative;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		border-radius: 15px;
+	}
+
+	div.mobile-about-card .text {
+		position: absolute;
+		display: flex;
+		z-index: 7;
+		width: 100%;
+		height: 90%;
+		top: 0;
+		left: 0;
+		justify-content: flex-end;
+		align-items: center;
+		transform: translateZ(150px);
+		z-index: 10;
+		transition: all 0.3s ease;
+	}
+
+	div.mobile-about-card .text div{
+		padding: 10px;
+		background-color: rgba(255,255,255,0.5);
+		position: absolute;
+		top: 0;
+		width: 50%;
+		text-align: center;
+	}
+
+	div.mobile-about-card .text div #heading {
+		font-size: 3em;
+		padding: 1% 10%;
+		display: inline-block;
+		border-right: 1px solid #000;
+		border-left: 1px solid #000;
+	}
+
+	div.mobile-about-card .text div #content {
+		font-size: 1.1em;
+	}
+
+	img#gift {
+		display: none;
+	}
+
+	/*Services Page*/
+
+	div.service-wrapper .service-card {
+		width: 70%;
+	}
+
+	div.estimate .estimate-sector {
+		width: 80%;
+	}
+}
